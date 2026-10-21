@@ -1,0 +1,28 @@
+# Environnement virtuel Python
+.venv/
+venv/
+
+# Variables d'environnement
+.env
+.env.*
+!.env.example
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Base de données locale
+*.sqlite3
+
+# React / Node.js
+node_modules/
+dist/
+
+# Fichiers temporaires
+*.log
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
