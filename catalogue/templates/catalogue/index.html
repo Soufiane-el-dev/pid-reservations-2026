@@ -8,11 +8,13 @@
     <h1>Liste des artistes</h1>
 
     <ul>
-        {% for artist in artists %}
-            <li>{{ artist.name }}</li>
-        {% empty %}
-            <li>Aucun artiste disponible.</li>
-        {% endfor %}
+       {% for artist in artists %}
+    <li>
+        <a href="{% url 'show' artist.id %}">{{ artist.name }}</a>
+    </li>
+{% empty %}
+    <li>Aucun artiste disponible.</li>
+{% endfor %}
     </ul>
 </body>
 </html>
