@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste des artistes</title>
+</head>
+<body>
+    <h1>Liste des artistes</h1>
+
+    <ul>
+        {% for artist in artists %}
+            <li>{{ artist.name }}</li>
+        {% empty %}
+            <li>Aucun artiste disponible.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
