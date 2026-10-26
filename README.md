@@ -2,33 +2,33 @@
 
 ## Présentation
 
-Projet individuel de développement réalisé dans le cadre de mon bachelier en informatique de gestion, orientation développement d'applications.
+Dans le cadre de mon PID, je vais développer un site web permettant de consulter des spectacles et de réserver des places en ligne.
 
-L'objectif est de développer une application web permettant aux utilisateurs de consulter un catalogue de spectacles et de réserver des places pour différentes représentations.
+Le projet sera réalisé progressivement, en suivant les différentes itérations du cours.
 
 ## Technologies
 
 - Python
 - Django
 - MySQL
-- React
+- React (prévu)
 
 ## Fonctionnalités prévues
 
-- Consultation du catalogue de spectacles
-- Gestion des artistes et des représentations
-- Inscription et connexion des utilisateurs
-- Réservation de places
-- Administration des spectacles
+- Consulter les spectacles et les artistes
+- Voir les dates des représentations
+- Créer un compte et se connecter
+- Réserver des places
+- Gérer les spectacles et les réservations
 
 ## Avancement
 
-Projet en cours de préparation.
+Pour le moment, Django et MySQL sont installés et configurés. La base de données est créée et l'application `catalogue` a été ajoutée au projet.
 
-### Itérations
+## Itérations
 
-- [ ] Itération 1 : Installation et configuration
-- [ ] Itération 2 : Prise en main du framework
+- [x] Itération 1 : Installation et configuration
+- [ ] Itération 2 : Découverte de Django
 - [ ] Itération 3 : CRUD simple
 - [ ] Itération 4 : Authentification
-- [ ] Itération 5 : Relations et CRUD complexes
+- [ ] Itération 5 : Relations entre les modèles et CRUD complexes
